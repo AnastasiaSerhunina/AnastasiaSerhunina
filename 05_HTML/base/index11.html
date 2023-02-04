@@ -30,7 +30,7 @@
                     <fieldset>
                         <legend>Строка поиска</legend>
                                 <label for="name">
-                                    <input type="text" autofocus> <input type="button" value="Искать" id="search" name="search"autofocus>
+                                    <input type="text" autofocus> <input type="button" * value="Искать" id="search" name="search"autofocus>
                                 </label>
                             <br/>
                                 <label>
@@ -52,10 +52,13 @@
                 <td>
                     <fieldset>
                         <legend>Авторизируйтесь</legend>
-                        <label>
-                            Логин
-                        <input type="text" name="Логин"></label>
-                        <input type="password">
+                        <label></label>
+                        <p><input type="text" name="Логин">*Логин</p></label>
+                        <p><input type="password" name="Пароль">*Пароль</p>
+                        <input type="checkbox" name="where_to_stay" value="Оставаться в системе">
+                        Оставаться в системе
+                        <br/>
+                        <input type="button" value="Войти">
                     </fieldset>
                 </td>
                 <td></td>
