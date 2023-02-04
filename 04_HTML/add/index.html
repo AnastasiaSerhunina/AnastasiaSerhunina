@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Пример страницы </title>
+    </head>
+    <body>
+        <img src="/C:\Users\Anastasia Serhunina\Desktop\HTML\AnastasiaSerhunina\04_HTML\base\PythonIcon.png" alt="Иконка Python" align="right" title="Иконка Python" width="300"/>
+        <h1 align="center" id="home"> HOW-TO: Программа на Python, Часть 1 </h1>
+                <ul>
+            <li> <a href="index1.html">Программа на Python — часть 1 </a></li>
+            <li><a href="index2.html">Программа на Python — часть 2</a></li>
+            <li><a href="index3.html">Программа на Python — часть 3</a></li>
+        </ul>
+        <h2 id="Content">Содержание</h2>
+        <h3>HOW-TO: Программа на Python, Часть 1</h3>
+        <ul>
+            <li><a href="#Chapter1">Наша первая программа</a></li>
+            <li><a href="#Chapter2">Пример цикла For</a></li>
+        </ul>
+        <p align="left">Из множества существующих языков программирования Python — один из самых лёгких
+            в изучении. Он создан в конце 80-х годов XX века, но с тех пор он сильно изменился.
+            Хотя Python входит в состав большинства дистрибутивов Linux, на него часто не
+            обращают внимания при выборе языка для изучения. В этой статье мы рассмотрим
+            создание консольных приложений, а в следующей — программирование графических
+            интерфейсов (<u>GUI</u>). Давайте создадим простую программу прямо сейчас.</p>
+        <h2 id="Chapter1">Наша первая программа </h2>
+        <p><a href="#Content"> К содержанию</a></p>
+        <p>Наберём код в текстовом редакторе (например, в <strong> gedit </strong>). Потом мы разберёмся, что делает
+            каждая строка и пойдём дальше.</p>
+        <p>Введите эти 4 строки:</p>
+        <pre>
+#!/usr/bin/env python
+print 'Hello. I am a python program.'
+name = raw_input("What is your name?")
+print "Hello there, " + name + "!"
+</pre>
+        <p>Это всё. Сохраните файл как <strong>hello.py</strong> в любом месте. Я предлагаю сохранить его в папке
+            <strong>python_examples</strong> в домашнем каталоге. Этот пример показывает, как просто написать
+            программу на Python. Для запуска программы нужно сделать её файл исполняемым. Для
+            этого введите в терминале</p>
+        <p><strong><u>chmod +x hello.py</u></strong></p>
+        <p>в папке, в которой вы сохранили программу. Теперь запустите её.</p>
+        <pre>
+greg@earth:~/python_examples$ ./hello.py
+Hello. I am a python program.
+What is your name? Ferd Burphel
+Hello there, Ferd Burphel!
+greg@earth:~/python_examples$</pre>
+        <p>Вот и всё.</p>
+        <h2 id="Chapter2">Пример цикла For</h2>
+        <p><a href="#Content"> К содержанию</a></p>
+        <p>Теперь давайте рассмотрим пример программирования цикла. Запустите текстовый редактор и наберите следующую программу:</p>
+        <pre>
+#!/usr/bin/env python
+for cntr in range(0,10):
+    print cntr </pre>
+        <p><em>Не забудьте поставить символ табуляции перед строкой «print cntr».</em>Это важно. В
+            Python для указания на блоки кода используются не круглые «(» и фигурные «{» скобки
+            как в других языках программирования, а отступы.</p>
+        <table width="100%">
+            <tr>
+                <td>
+                    <th align="left"><a href="back.html"> <button><img src="/C:\Users\Anastasia Serhunina\Desktop\HTML\AnastasiaSerhunina\04_HTML\base\back.png" align="left" alt="Назад" title="Назад"/></a></button> </th>
+                    <th> <button><a href="index1.html"><img src="/C:\Users\Anastasia Serhunina\Desktop\HTML\AnastasiaSerhunina\04_HTML\base\home.png" align="center" alt="К содержанию" title="К содержанию" /></a> </button></th>
+                    <th align="right"> <button><a href="index2.html"><img src="/C:\Users\Anastasia Serhunina\Desktop\HTML\AnastasiaSerhunina\04_HTML\base\forward.png" align="right" alt="Вперед" title="Вперед"/></button></a></th>
+                </td>
+            </tr>
+        </table>
+        <svg>          
+            <image xlink:href="/C:\Users\Anastasia Serhunina\Desktop\HTML\AnastasiaSerhunina\04_HTML\base\back.png" align="left"></image>
+            <image href="/C:\Users\Anastasia Serhunina\Desktop\HTML\AnastasiaSerhunina\04_HTML\base\home.png" align="center"></image>
+            <image href="/C:\Users\Anastasia Serhunina\Desktop\HTML\AnastasiaSerhunina\04_HTML\base\forward.png" align="right"></image>
+        </svg>
+</body>
+</html>
