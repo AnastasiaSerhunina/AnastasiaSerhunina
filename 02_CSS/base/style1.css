@@ -1,0 +1,31 @@
+div {
+    width: 145px;
+    height: 190px;
+    float: left;
+}
+
+.card1 {
+    background-image: url(cards.png);
+    background-repeat: no-repeat;
+    background: position 20px;
+}
+.card2{
+    background-image: url(cards.png);
+    background-repeat: no-repeat;
+    background-position:-1px -1800px;
+}
+.card3{
+    background-image: url(cards.png);
+    background-repeat: no-repeat;
+    background-position:-290px -1400px; 
+}
+.card4{
+    background-image: url(cards.png);
+    background-repeat: no-repeat;
+    background-position:-145px -2190px;
+}
+.card5{
+    background-image: url(cards.png);
+    background-repeat: no-repeat;
+    background-position:-5px -2390px;
+}
