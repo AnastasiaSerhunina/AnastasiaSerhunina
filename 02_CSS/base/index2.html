@@ -16,28 +16,35 @@
             max-height: 10 px;
             overflow: auto;
         }
+
+        li {
+            list-style-type: lower-roman;
+        }
+
+        .title {
+            list-style-type: upper-roman;
+        }
     </style>
 
 </head>
 
 <body>
     <ul>
-        <li style="list-style-type: upper-roman;"> <strong>Контейнер с кодом</strong>
+        <li class="title"> <strong>Контейнер с кодом</strong>
             <ul>
-                <li style="list-style-type: lower-roman;">Цвет фона: чёрный</li>
-                <li style="list-style-type: lower-roman;">Цвет текста: зелёный</li>
-                <li style="list-style-type: lower-roman;">Штрина: 400рх</li>
-                <li style="list-style-type: lower-roman;">Максимальная высота контейнера: 4-е строки</li>
-                <li style="list-style-type: lower-roman;">Переполнение: автоматическое</li>
+                <li>Цвет фона: чёрный</li>
+                <li>Цвет текста: зелёный</li>
+                <li>Штрина: 400рх</li>
+                <li>Максимальная высота контейнера: 4-е строки</li>
+                <li>Переполнение: автоматическое</li>
             </ul>
         </li>
-    </ul>
-    <ul start="2">
-        <li style="list-style-type: upper-roman;"> <strong> Списки</strong></li>
+
+        <li class="title"> <strong> Списки</strong></li>
         <ul>
-            <li style="list-style-type: lower-roman;">Ширина:350рх</li>
-            <li style="list-style-type: lower-roman;">Тип списка: римские цифры</li>
-            <li style="list-style-type: lower-roman;">Тип вложенного списка: римские нижний регистр цифры</li>
+            <li>Ширина:350рх</li>
+            <li>Тип списка: римские цифры</li>
+            <li>Тип вложенного списка: римские нижний регистр цифры</li>
         </ul>
     </ul>
     <div class="block">
